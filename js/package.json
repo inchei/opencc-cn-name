@@ -1,0 +1,30 @@
+{
+  "name": "opencc-cn-name",
+  "version": "0.1.2",
+  "description": "OpenCC-complement name normalization for Japanese person names → simplified Chinese",
+  "author": "ooommmooo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inchei/opencc-cn-name.git"
+  },
+  "homepage": "https://github.com/inchei/opencc-cn-name",
+  "bugs": {
+    "url": "https://github.com/inchei/opencc-cn-name/issues"
+  },
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./umd": "./dist/umd/opencc-cn-name.js"
+  },
+  "files": ["index.js", "data_gen.js", "dist"],
+  "scripts": {
+    "build": "esbuild index.js --bundle --format=iife --global-name=openccCN --outfile=dist/umd/opencc-cn-name.js",
+    "test": "node --test",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  },
+  "license": "GPL-3.0-only"
+}

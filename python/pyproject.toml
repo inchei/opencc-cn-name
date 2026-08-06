@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opencc-cn-name"
+version = "0.1.2"
+description = "OpenCC-complement name conversion for Japanese person names → simplified Chinese"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["opencc"]
+
+[project.urls]
+Homepage = "https://github.com/inchei/opencc-cn-name"
+Repository = "https://github.com/inchei/opencc-cn-name"
+Issues = "https://github.com/inchei/opencc-cn-name/issues"
+
+[project.license]
+file = "LICENSE"
+
+[[project.maintainers]]
+name = "ooommmooo"
+
+[tool.setuptools]
+packages = ["opencc_cn_name"]
