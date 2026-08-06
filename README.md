@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/opencc-cn-name?style=flat-square&label=npm)](https://www.npmjs.com/package/opencc-cn-name)
 [![PyPI version](https://img.shields.io/pypi/v/opencc-cn-name?style=flat-square&label=PyPI)](https://pypi.org/project/opencc-cn-name/)
+[![CI](https://github.com/inchei/opencc-cn-name/actions/workflows/ci.yml/badge.svg)](https://github.com/inchei/opencc-cn-name/actions/workflows/ci.yml)
 
 [OpenCC](https://github.com/BYVoid/OpenCC) 的补充库：处理 OpenCC 无法正确转换的日本人名用字，将日文人名转为简体中文。
 
