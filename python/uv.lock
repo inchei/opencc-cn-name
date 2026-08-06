@@ -37,7 +37,7 @@ wheels = [
 
 [[package]]
 name = "opencc-cn-name"
-version = "0.1.2"
+version = "0.1.1"
 source = { editable = "." }
 dependencies = [
     { name = "opencc" },
