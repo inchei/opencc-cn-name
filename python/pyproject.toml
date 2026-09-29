@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "opencc-cn-name"
-version = "0.1.2"
+version = "0.1.3"
 description = "OpenCC-complement name conversion for Japanese person names → simplified Chinese"
 readme = "README.md"
 requires-python = ">=3.9"
